@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Yacht Dice</title>
+</head>
+<body>
+    <h1>Yacht</h1>
+    <h2>Player 1's turn</h2>
+    <h2 id ="throws">Throws: 0/3</h2>
+    <div class="score-board">
+        <table>
+            <tr class = 'Aces'>
+                <td class = 'labels'>Aces</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr class = 'Deuces'>
+                <td class = 'labels'>Deuces</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr  class = 'Threes'>
+                <td class = 'labels'>Threes</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr  class = 'Fours'>
+                <td class = 'labels'>Fours</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr  class = 'Fives'>
+                <td class = 'labels'>Fives</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr class = 'Sixes'>
+                <td class = 'labels'>Sixes</td>
+                <td class = 'player1Score simple'></td>
+                <td class = 'player2Score simple'></td>
+            </tr>
+            <tr class = 'Subtotal'>
+                <td class = 'labels'>Subtotal</td>
+                <td class = 'player1Score scoreFixed'>0/63</td>
+                <td class = 'player2Score scoreFixed'>0/63</td>
+            </tr>
+            <tr class = 'Bonus'>
+                <td class = 'labels'>+35 Bonus</td>
+                <td class = 'player1Score scoreFixed'></td>
+                <td class = 'player2Score scoreFixed'></td>
+            </tr>
+            <tr>
+                <td colspan = 3 >Bonus if Aces - Sixes are over 63 points</td>
+            </tr>
+            <tr class = 'Choice'>
+                <td class = 'labels'>Choice</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'Kind'>
+                <td class = 'labels'>4 of a Kind</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'FullHouse'>
+                <td class = 'labels'>Full House</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'SStraight'>
+                <td class = 'labels'>S. straight</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'LStraight'>
+                <td class = 'labels'>L. Straight</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'Yacht'>
+                <td class = 'labels'>Yacht</td>
+                <td class = 'player1Score'></td>
+                <td class = 'player2Score'></td>
+            </tr>
+            <tr class = 'Total'>
+                <td class = 'labels'>Total</td>
+                <td class = 'player1Score scoreFixed'>0</td>
+                <td class = 'player2Score scoreFixed'>0</td>
+            </tr>
+        </table>
+    </div>
+    <div class="dices">
+        <img class = "dice1" alt="dice" src = "images/1.png">
+        <img class = "dice1" alt="dice" src = "images/1.png">
+        <img class = "dice1" alt="dice" src = "images/1.png">
+        <img class = "dice1" alt="dice" src = "images/1.png">
+        <img class = "dice1" alt="dice" src = "images/1.png">
+    </div>
+    <button class = "btn">Roll</button>
+    <script src="script.js"></script>
+</body>
+</html>

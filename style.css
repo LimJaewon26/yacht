@@ -1,0 +1,104 @@
+
+h1{
+    align-items: center;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+table{
+    display: flex;
+}
+
+table tr td{
+    text-align: center;
+    border: solid black;
+    width: 4rem;
+    height: 2rem;
+}
+
+table tr .player1Score, table tr .player2Score{
+    color: gray;
+    cursor: pointer;
+}
+
+table tr .scoreFixed{
+    font-weight: bold;
+    color: black;
+}
+
+table .Subtotal .player1Score, table .Subtotal .player2Score{
+    font-weight: bold;
+    color: black;
+}
+
+table .Total .player1Score, table .Total .player2Score{
+    
+    color: black;
+}
+
+.labels{
+    width : 10rem;
+}
+
+.dices{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 60%;
+    width: 50px;
+    cursor: pointer;
+}
+
+.dices .dice1{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/1.png);
+}
+
+.dices .dice2{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/2.png);
+}
+
+.dices .dice3{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/3.png);
+}
+
+.dices .dice4{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/4.png);
+}
+
+.dices .dice5{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/5.png);
+}
+
+.dices .dice6{
+    width: 100px;
+    margin: 5px;
+    content: url(../images/6.png);
+}
+
+.dices .fixed{
+    width: 70px;
+    height: 70px;
+    margin: 5px; 
+}
+
